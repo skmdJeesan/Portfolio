@@ -62,7 +62,11 @@ const Cursor = ({ position }: { position: CursorPosition }) => (
   <motion.li
     aria-hidden
     initial={false}
-    animate={position}
+    animate={{
+      left: position.left,
+      width: position.width,
+      opacity: position.opacity,
+    }}
     transition={{
       left: { type: 'spring', stiffness: 400, damping: 32 },
       width: { type: 'spring', stiffness: 400, damping: 32 },
