@@ -155,7 +155,7 @@ const Projects = () => {
     <section id="projects" className="relative overflow-hidden px-4 py-20 scroll-mt-24">
       <div
         aria-hidden
-        className="pointer-events-none absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-400/10 blur-3xl sm:h-[28rem] sm:w-[28rem]"
+        className="pointer-events-none absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-400/10 blur-3xl sm:h-112 sm:w-md"
       />
 
       <motion.div
@@ -207,7 +207,7 @@ const Projects = () => {
                 ))}
               </motion.div>
             ) : (
-              <div className="min-h-[26rem]" />
+              <div className="min-h-104" />
             )}
           </div>
 

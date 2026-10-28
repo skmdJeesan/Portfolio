@@ -132,7 +132,7 @@ const Contact = () => {
     >
       <div
         aria-hidden
-        className="pointer-events-none absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-400/10 blur-3xl sm:h-96 sm:w-96 lg:h-[32rem] lg:w-[32rem]"
+        className="pointer-events-none absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-400/10 blur-3xl sm:h-96 sm:w-96 lg:h-128 lg:w-lg"
       />
 
       <motion.div
@@ -235,7 +235,7 @@ const Contact = () => {
             aria-hidden="true"
             value={website}
             onChange={(e) => set_website(e.target.value)}
-            className="absolute -left-[9999px] h-0 w-0 opacity-0"
+            className="absolute left-[-9999px] h-0 w-0 opacity-0"
           />
 
           <motion.div variants={field_variants} className="space-y-3">
