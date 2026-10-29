@@ -177,7 +177,7 @@ const GithubStats = ({ username }: Props) => {
   }
 
   return (
-    <div className="p-4 sm:p-6 lg:p-8 bg-card border-border/5 backdrop-blur-sm overflow-hidden">
+    <div className="p-1 bg-card border-border/5 backdrop-blur-sm overflow-hidden">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -193,7 +193,7 @@ const GithubStats = ({ username }: Props) => {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 const rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm p-5">
           <motion.div
             initial={{ scale: 0.95, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}

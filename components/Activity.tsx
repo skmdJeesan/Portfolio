@@ -7,7 +7,7 @@ import LeetCodeStats from './LeetCodeStats'
 const Activity = () => {
   return (
     <section id='activity' className="px-4 py-24   flex flex-col items-center">
-      <h2 className="text-3xl font-bold mb-8 text-center">
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8 text-center">
         Github <span className="text-amber-500"> Activity</span>
       </h2>
       <motion.div
